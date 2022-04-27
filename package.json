@@ -10,22 +10,22 @@
     "cors": "^2.8.5",
     "debug": "~2.6.9",
     "dotenv": "^16.0.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-standart": "^0.2.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.2.0",
-    "eslint-plugin-prettier": "^4.0.0",
     "express": "~4.16.1",
     "mongoose": "^6.3.1",
     "morgan": "~1.9.1",
-    "nodemon": "^2.0.15",
-    "prettier": "^2.6.2"
+    "nodemon": "^2.0.15"
   },
   "devDependencies": {
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-promise": "^2.0.2",
     "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-promise": "^6.0.0"
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-standart": "^0.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2"
   }
 }
