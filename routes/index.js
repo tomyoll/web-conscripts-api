@@ -4,7 +4,6 @@ const router = express.Router();
 
 const Controller = require('../controllers/');
 
-/* GET home page. */
 router.post('/', Controller.createConscript);
 
 router.get('/conscripts', Controller.getAll);
