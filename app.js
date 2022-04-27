@@ -5,6 +5,8 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const cors = require('cors');
 
+const SERVER_PORT = process.env.PORT || 4000;
+
 require('dotenv').config();
 
 require('./helpers/connenctDB').connect();
@@ -32,6 +34,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 
-app.listen(4000, () => console.log(`Server is running on port ${4000}`));
+app.listen(4000, () => console.log(`Server is running on port ${SERVER_PORT}`));
 
 module.exports = app;
